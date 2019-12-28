@@ -30,7 +30,7 @@ def get_city():
 # get user input for month (all, january, february, ... , june)
 # data is filtered by month and by day
 def get_date(df_city):
-    months = ['All','January','Feburary','March','April','May','June']
+    months = ['All','Jan','Feb','Mar','Apr','May','Jun']
     days = ['All','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
     while True:
         month = input('Please choose a month. You could choose from January to June, you can also choose all those months with All \n')
@@ -112,7 +112,7 @@ def station_stats(df_city):
     # display most frequent combination of start station and end station trip
     StartAndEnd = df_city['start'] + ' to ' + df_city['end']
     print('Most Frequent combination of start and end station: ', StartAndEnd.mode()[0])
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took- %s seconds:" % (time.time() - start_time))
     print('-'*40)
 
 def trip_duration_stats(df_city):
@@ -132,7 +132,7 @@ def trip_duration_stats(df_city):
     mean_time = df_city['Trip Duration'].mean()
     print("The mean travel time was: " + str(mean_time))
 
-    print("\nThis took %s seconds." % (time.time() - start_time))
+    print("\nThis took- %s seconds:" % (time.time() - start_time))
     print('-'*40)
 
 
