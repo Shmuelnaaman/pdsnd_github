@@ -1,6 +1,6 @@
 ## Udacity PythonForDS - Python Project
 ## BikeShare
-## By: JGEL
+## By: Shmuel
 
 # Libraries import 
 import time
