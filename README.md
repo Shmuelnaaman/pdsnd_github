@@ -5,7 +5,7 @@
 PDSND_github
 
 ### Description
-Describe what your project is about and what it does
+version controll with githu
 
 ### Files used
 Include the files used
