@@ -2,10 +2,10 @@
 2019-12-27.
 
 ### Project Title
-PDSND_github
+bikeshare
 
 ### Description
-version controll with githu
+bikeshare statistics
 
 ### Files used
 bikeshare.py
