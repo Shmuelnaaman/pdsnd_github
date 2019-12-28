@@ -30,7 +30,7 @@ def get_city():
 # get user input for month (all, january, february, ... , june)
 # data is filtered by month and by day
 def get_date(df_city):
-    months = ['All','January','Feburary','March','April','May','June']
+    months = ['All','Jan','Feb','Mar','Apr','May','Jun']
     days = ['All','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']
     while True:
         month = input('Please choose a month. You could choose from January to June, you can also choose all those months with All \n')
